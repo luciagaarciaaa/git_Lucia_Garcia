@@ -1,6 +1,6 @@
 def produccion = [:]
             produccion.name = 'practicajenkins'
-            produccion.host = '172.17.0.2'   // modificar con IP de contenedor docker con Tomcat
+            produccion.host = '172.17.0.3'   // modificar con IP de contenedor docker con Tomcat
             produccion.user = 'root'
             produccion.password = 'root'
             produccion.allowAnyHosts = true
